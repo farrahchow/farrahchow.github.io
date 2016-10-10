@@ -1,0 +1,164 @@
+/*****************************************************
+ *                   STYLE SHEETS                    *
+ *    PALETTE: #d4d4d4 light grey                    *
+ *             #9f9f9f medium grey                   *
+ *             #585858 dark grey                     *
+ *             #90e8d0 aqua                          *
+ *             #fff6c1 yellow                        *
+ *             #ffffff white                         *
+ *****************************************************/
+
+/* TO DO
+ * 1. Make links bigger
+ * 2. Home page (short about me + random project)
+ * 3. Gallery
+ * 4. Hover over social media = different colors
+ * 5. Add professional headshot...?
+ */
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue.eot');
+	src: url('BebasNeue.eot?#iefix') format('embedded-opentype'),
+		   url('BebasNeue.woff') format('woff'),
+		   url('BebasNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div {
+  font-family: 'Bebas Neue';
+}
+
+/* DONE */
+.transparent {
+	position: fixed;
+	top: 165px;
+	left: 165px;
+	height: 855px;
+	width: 350px;
+}
+
+/* DONE */
+.topBarBlue {
+  position: fixed;
+  top: 20px;
+  right: 70px;
+	height: 113px;
+  width: 1781px;
+  background-color: #90e8d0;
+}
+
+/* DONE */
+.github {
+	position: fixed;
+	float: left;
+	left: 300px;
+	top: 200px;
+}
+
+/* DONE */
+.linkedin {
+	position: fixed;
+  float: left;
+	left: 105px;
+	top: 165px;
+}
+
+/* DONE */
+.topBarYellowUnderline {
+	position: fixed;
+  top: 110px;
+	right: 40px;
+  width: 777px;
+  height: 38px;
+	background-color: #fff6c1;
+}
+
+/* DONE */
+.myName {
+	position: fixed;
+  float: right;
+  right: 20px;
+	top: 0px;
+}
+
+/* DONE */
+.myDescription {
+	position: fixed;
+  float: right;
+  right: 105px;
+	top: 165px;
+}
+
+/* DONE */
+.sidebarGrey {
+  position: fixed;
+  top: 165px;
+  left: 69px;
+	height: 700px;
+  width: 430px;
+  background-color: #585858;
+}
+
+/* DONE */
+.sidebarYellow {
+	position: fixed;
+	top: 165px;
+  left: 69px;
+  width: 80px;
+  height: 700px;
+	background-color: #fff6c1;
+}
+
+/* white content area */
+.contentBox {
+	position: fixed;
+	top: 222px;
+  left: 500px;
+  width: 1351px;
+  height: 642px;
+	background-color: #ffffff;
+}
+
+.smallText {
+  color: #90e8d0;
+  font-family: sans-serif
+	font-size: 12;
+}
+
+.smallTextHovered {
+  color: #90e8d0;
+  font-family: sans-serif
+	font-size: 20;
+}
+
+.sideBarHeadingText {
+  color: #ffffff;
+  font-family: sans-serif
+	font-size: 12;
+}
+
+.darkText {
+  color: #585858;
+  font-family: sans-serif
+	font-size: 20;
+}
+
+.mediumText {
+  color: #9f9f9f;
+  font-family: sans-serif
+	font-size: 20;
+}
+
+body {
+  background: #d4d4d4;
+}
+
+/* Default Paragraph Styles */
+p {
+ color: #ffffff;
+ font-size: 20px;
+ text-transform: lowercase;
+ font-weight: normal;
+}
